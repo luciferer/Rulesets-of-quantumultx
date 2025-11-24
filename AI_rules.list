@@ -75,8 +75,8 @@ DOMAIN-KEYWORD, makersuite.google.com,ChatGPT
 DOMAIN-KEYWORD, cdn.usefathom.com,ChatGPT
 DOMAIN-SUFFIX, anthropic.com,ChatGPT
 DOMAIN-SUFFIX, claude.ai,ChatGPT
-ip-cidr, 160.79.104.0/23,ChatGPT
-ip6-cidr, 2607:6bc0::/48,ChatGPT
+IP-CIDR6, 160.79.104.0/23,ChatGPT
+IP-CIDR6, 2607:6bc0::/48,ChatGPT
 
 # JetBrains AI
 DOMAIN-SUFFIX, grazie.ai,ChatGPT
