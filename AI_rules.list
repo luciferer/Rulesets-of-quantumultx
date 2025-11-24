@@ -8,37 +8,37 @@
 # ———— 以下为手动替换更新内容 ————
 
 # 实时分布式数据库
-HOST-SUFFIX, featurebase.app,ChatGPT
+DOMAIN-SUFFIX, featurebase.app,ChatGPT
 
 # DevvAI 服务
-HOST-SUFFIX, devv.ai,ChatGPT
+DOMAIN-SUFFIX, devv.ai,ChatGPT
 HOST, devv.featurebase.app,ChatGPT
 
 # Flowith 服务
-HOST-SUFFIX, flowith.io,ChatGPT
-HOST-SUFFIX, flo.ing,ChatGPT
-HOST-SUFFIX, flowith.net,ChatGPT
+DOMAIN-SUFFIX, flowith.io,ChatGPT
+DOMAIN-SUFFIX, flo.ing,ChatGPT
+DOMAIN-SUFFIX, flowith.net,ChatGPT
 HOST, flowith.featurebase.app,ChatGPT
-HOST-SUFFIX, posthog.com,ChatGPT
-HOST-SUFFIX, i.posthog.com,ChatGPT
-HOST-SUFFIX, supabase.co,ChatGPT
-HOST-SUFFIX, aibdxsebwhalbnugsqel.supabase.co,ChatGPT
+DOMAIN-SUFFIX, posthog.com,ChatGPT
+DOMAIN-SUFFIX, i.posthog.com,ChatGPT
+DOMAIN-SUFFIX, supabase.co,ChatGPT
+DOMAIN-SUFFIX, aibdxsebwhalbnugsqel.supabase.co,ChatGPT
 
 # 字节 Trae AI 服务
-HOST-SUFFIX, byteintlapi.com,ChatGPT
-HOST-SUFFIX, byteoversea.com,ChatGPT
-HOST-SUFFIX, bytednsdoc.com,ChatGPT
-HOST-SUFFIX, trae.ai,ChatGPT
+DOMAIN-SUFFIX, byteintlapi.com,ChatGPT
+DOMAIN-SUFFIX, byteoversea.com,ChatGPT
+DOMAIN-SUFFIX, bytednsdoc.com,ChatGPT
+DOMAIN-SUFFIX, trae.ai,ChatGPT
 HOST, trae-api-sg.mchost.guru,ChatGPT
 HOST, abtestvm-sg.bytedance.com,ChatGPT
 
 # Grok（xAI） 服务
-HOST-SUFFIX, x.ai,ChatGPT
-HOST-SUFFIX, grok.com,ChatGPT
-HOST-SUFFIX, featureassets.org,ChatGPT
+DOMAIN-SUFFIX, x.ai,ChatGPT
+DOMAIN-SUFFIX, grok.com,ChatGPT
+DOMAIN-SUFFIX, featureassets.org,ChatGPT
 
 # AmyMind 服务
-HOST-SUFFIX, amymind.com,ChatGPT
+DOMAIN-SUFFIX, amymind.com,ChatGPT
 
 # 2024-10-10 14:36:12
 # ChatGPT
@@ -47,12 +47,12 @@ HOST, openaiapi-site.azureedge.net,ChatGPT
 HOST, openaicom.imgix.net,ChatGPT
 HOST, openaicomproductionae4b.blob.core.windows.net,ChatGPT
 HOST, production-openaicom-storage.azureedge.net,ChatGPT
-HOST-SUFFIX, ai.com,ChatGPT
-HOST-SUFFIX, chatgpt.com,ChatGPT
-HOST-SUFFIX, oaistatic.com,ChatGPT
-HOST-SUFFIX, oaiusercontent.com,ChatGPT
-HOST-SUFFIX, openai.com,ChatGPT
-HOST-SUFFIX, openai.com.cdn.cloudflare.net,ChatGPT
+DOMAIN-SUFFIX, ai.com,ChatGPT
+DOMAIN-SUFFIX, chatgpt.com,ChatGPT
+DOMAIN-SUFFIX, oaistatic.com,ChatGPT
+DOMAIN-SUFFIX, oaiusercontent.com,ChatGPT
+DOMAIN-SUFFIX, openai.com,ChatGPT
+DOMAIN-SUFFIX, openai.com.cdn.cloudflare.net,ChatGPT
 
 # Copilot
 HOST, api.githubcopilot.com,ChatGPT
@@ -73,26 +73,26 @@ HOST, makersuite.google.com,ChatGPT
 
 # Claude
 HOST, cdn.usefathom.com,ChatGPT
-HOST-SUFFIX, anthropic.com,ChatGPT
-HOST-SUFFIX, claude.ai,ChatGPT
+DOMAIN-SUFFIX, anthropic.com,ChatGPT
+DOMAIN-SUFFIX, claude.ai,ChatGPT
 ip-cidr, 160.79.104.0/23,ChatGPT
 ip6-cidr, 2607:6bc0::/48,ChatGPT
 
 # JetBrains AI
-HOST-SUFFIX, grazie.ai,ChatGPT
-HOST-SUFFIX, grazie.aws.intellij.net,ChatGPT
+DOMAIN-SUFFIX, grazie.ai,ChatGPT
+DOMAIN-SUFFIX, grazie.aws.intellij.net,ChatGPT
 
 # Meta AI
 HOST, imagine.meta.com,ChatGPT
-HOST-SUFFIX, meta.ai,ChatGPT
+DOMAIN-SUFFIX, meta.ai,ChatGPT
 
 # Perplexity
-HOST-SUFFIX, perplexity.ai,ChatGPT
+DOMAIN-SUFFIX, perplexity.ai,ChatGPT
 
 # Mistral AI
 HOST, chat.mistral.ai,ChatGPT
 HOST, console.mistral.ai,ChatGPT
-HOST-SUFFIX, mistral.ai,ChatGPT
+DOMAIN-SUFFIX, mistral.ai,ChatGPT
 
 # Google
 HOST, google.com,ChatGPT
