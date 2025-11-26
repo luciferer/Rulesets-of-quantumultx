@@ -1,97 +1,89 @@
-# RAW from - https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/AI.list
-# 1 -- 匹配所有【DO MAIN】，并全部更改为【H OST】
-# 2 -- IP 类格式转换模板：ip6-cidr, 2001:4860:4860::8888/32, direct
-# 3 -- IP 类格式转换模板：ip-cidr, 10.0.0.0/8, direct
-# 4 -- 所有末尾添加后缀【,ChatGPT】
-# 5 -- 请注意使用时请开启 Quantumult X 中的「策略偏好」功能，并选择您的对应策略组，否则将自动创建名为【,ChatGPT】的策略组并可能不能正常使用该规则
-
-# ———— 以下为手动替换更新内容 ————
+# AI Rules - Surge Version
+# Strategy: AI-Route
 
 # 实时分布式数据库
-DOMAIN-SUFFIX, featurebase.app,ChatGPT
+DOMAIN-SUFFIX, featurebase.app, AI-Route
 
 # DevvAI 服务
-DOMAIN-SUFFIX, devv.ai,ChatGPT
-DOMAIN-KEYWORD, devv.featurebase.app,ChatGPT
+DOMAIN-SUFFIX, devv.ai, AI-Route
+DOMAIN-KEYWORD, devv.featurebase.app, AI-Route
 
 # Flowith 服务
-DOMAIN-SUFFIX, flowith.io,ChatGPT
-DOMAIN-SUFFIX, flo.ing,ChatGPT
-DOMAIN-SUFFIX, flowith.net,ChatGPT
-DOMAIN-KEYWORD, flowith.featurebase.app,ChatGPT
-DOMAIN-SUFFIX, posthog.com,ChatGPT
-DOMAIN-SUFFIX, i.posthog.com,ChatGPT
-DOMAIN-SUFFIX, supabase.co,ChatGPT
-DOMAIN-SUFFIX, aibdxsebwhalbnugsqel.supabase.co,ChatGPT
+DOMAIN-SUFFIX, flowith.io, AI-Route
+DOMAIN-SUFFIX, flo.ing, AI-Route
+DOMAIN-SUFFIX, flowith.net, AI-Route
+DOMAIN-KEYWORD, flowith.featurebase.app, AI-Route
+DOMAIN-SUFFIX, posthog.com, AI-Route
+DOMAIN-SUFFIX, i.posthog.com, AI-Route
+DOMAIN-SUFFIX, supabase.co, AI-Route
+DOMAIN-SUFFIX, aibdxsebwhalbnugsqel.supabase.co, AI-Route
 
 # 字节 Trae AI 服务
-DOMAIN-SUFFIX, byteintlapi.com,ChatGPT
-DOMAIN-SUFFIX, byteoversea.com,ChatGPT
-DOMAIN-SUFFIX, bytednsdoc.com,ChatGPT
-DOMAIN-SUFFIX, trae.ai,ChatGPT
-DOMAIN-KEYWORD, trae-api-sg.mchost.guru,ChatGPT
-DOMAIN-KEYWORD, abtestvm-sg.bytedance.com,ChatGPT
+DOMAIN-SUFFIX, byteintlapi.com, AI-Route
+DOMAIN-SUFFIX, byteoversea.com, AI-Route
+DOMAIN-SUFFIX, bytednsdoc.com, AI-Route
+DOMAIN-SUFFIX, trae.ai, AI-Route
+DOMAIN-KEYWORD, trae-api-sg.mchost.guru, AI-Route
+DOMAIN-KEYWORD, abtestvm-sg.bytedance.com, AI-Route
 
-# Grok（xAI） 服务
-DOMAIN-SUFFIX, x.ai,ChatGPT
-DOMAIN-SUFFIX, grok.com,ChatGPT
-DOMAIN-SUFFIX, featureassets.org,ChatGPT
+# Grok (xAI)
+DOMAIN-SUFFIX, x.ai, AI-Route
+DOMAIN-SUFFIX, grok.com, AI-Route
+DOMAIN-SUFFIX, featureassets.org, AI-Route
 
-# AmyMind 服务
-DOMAIN-SUFFIX, amymind.com,ChatGPT
+# AmyMind
+DOMAIN-SUFFIX, amymind.com, AI-Route
 
-# 2024-10-10 14:36:12
 # ChatGPT
-DOMAIN-KEYWORD, o33249.ingest.sentry.io,ChatGPT
-DOMAIN-KEYWORD, openaiapi-site.azureedge.net,ChatGPT
-DOMAIN-KEYWORD, openaicom.imgix.net,ChatGPT
-DOMAIN-KEYWORD, openaicomproductionae4b.blob.core.windows.net,ChatGPT
-DOMAIN-KEYWORD, production-openaicom-storage.azureedge.net,ChatGPT
-DOMAIN-SUFFIX, ai.com,ChatGPT
-DOMAIN-SUFFIX, chatgpt.com,ChatGPT
-DOMAIN-SUFFIX, oaistatic.com,ChatGPT
-DOMAIN-SUFFIX, oaiusercontent.com,ChatGPT
-DOMAIN-SUFFIX, openai.com,ChatGPT
-DOMAIN-SUFFIX, openai.com.cdn.cloudflare.net,ChatGPT
+DOMAIN-KEYWORD, o33249.ingest.sentry.io, AI-Route
+DOMAIN-KEYWORD, openaiapi-site.azureedge.net, AI-Route
+DOMAIN-KEYWORD, openaicom.imgix.net, AI-Route
+DOMAIN-KEYWORD, openaicomproductionae4b.blob.core.windows.net, AI-Route
+DOMAIN-KEYWORD, production-openaicom-storage.azureedge.net, AI-Route
+DOMAIN-SUFFIX, ai.com, AI-Route
+DOMAIN-SUFFIX, chatgpt.com, AI-Route
+DOMAIN-SUFFIX, oaistatic.com, AI-Route
+DOMAIN-SUFFIX, oaiusercontent.com, AI-Route
+DOMAIN-SUFFIX, openai.com, AI-Route
+DOMAIN-SUFFIX, openai.com.cdn.cloudflare.net, AI-Route
 
 # Copilot
-DOMAIN-KEYWORD, api.githubcopilot.com,ChatGPT
-DOMAIN-KEYWORD, copilot-proxy.githubusercontent.com,ChatGPT
-DOMAIN-KEYWORD, copilot.microsoft.com,ChatGPT
-DOMAIN-KEYWORD, sydney.bing.com,ChatGPT
-DOMAIN-KEYWORD, www.bing.com,ChatGPT
+DOMAIN-KEYWORD, api.githubcopilot.com, AI-Route
+DOMAIN-KEYWORD, copilot-proxy.githubusercontent.com, AI-Route
+DOMAIN-KEYWORD, copilot.microsoft.com, AI-Route
+DOMAIN-KEYWORD, sydney.bing.com, AI-Route
+DOMAIN-KEYWORD, www.bing.com, AI-Route
 
 # Gemini
-DOMAIN-KEYWORD, bard.google.com,ChatGPT
-DOMAIN-KEYWORD, gemini.google.com,ChatGPT
-DOMAIN-KEYWORD, generativelanguage.googleapis.com,ChatGPT
-DOMAIN-KEYWORD, ai.google.dev,ChatGPT
-DOMAIN-KEYWORD, aida.googleapis.com,ChatGPT
-DOMAIN-KEYWORD, aistudio.google.com,ChatGPT
-DOMAIN-KEYWORD, alkalimakersuite-pa.clients6.google.com,ChatGPT
-DOMAIN-KEYWORD, makersuite.google.com,ChatGPT
+DOMAIN-KEYWORD, bard.google.com, AI-Route
+DOMAIN-KEYWORD, gemini.google.com, AI-Route
+DOMAIN-KEYWORD, generativelanguage.googleapis.com, AI-Route
+DOMAIN-KEYWORD, ai.google.dev, AI-Route
+DOMAIN-KEYWORD, aida.googleapis.com, AI-Route
+DOMAIN-KEYWORD, aistudio.google.com, AI-Route
+DOMAIN-KEYWORD, alkalimakersuite-pa.clients6.google.com, AI-Route
+DOMAIN-KEYWORD, makersuite.google.com, AI-Route
 
 # Claude
-DOMAIN-KEYWORD, cdn.usefathom.com,ChatGPT
-DOMAIN-SUFFIX, anthropic.com,ChatGPT
-DOMAIN-SUFFIX, claude.ai,ChatGPT
-
+DOMAIN-KEYWORD, cdn.usefathom.com, AI-Route
+DOMAIN-SUFFIX, anthropic.com, AI-Route
+DOMAIN-SUFFIX, claude.ai, AI-Route
 
 # JetBrains AI
-DOMAIN-SUFFIX, grazie.ai,ChatGPT
-DOMAIN-SUFFIX, grazie.aws.intellij.net,ChatGPT
+DOMAIN-SUFFIX, grazie.ai, AI-Route
+DOMAIN-SUFFIX, grazie.aws.intellij.net, AI-Route
 
 # Meta AI
-DOMAIN-KEYWORD, imagine.meta.com,ChatGPT
-DOMAIN-SUFFIX, meta.ai,ChatGPT
+DOMAIN-KEYWORD, imagine.meta.com, AI-Route
+DOMAIN-SUFFIX, meta.ai, AI-Route
 
 # Perplexity
-DOMAIN-SUFFIX, perplexity.ai,ChatGPT
+DOMAIN-SUFFIX, perplexity.ai, AI-Route
 
 # Mistral AI
-DOMAIN-KEYWORD, chat.mistral.ai,ChatGPT
-DOMAIN-KEYWORD, console.mistral.ai,ChatGPT
-DOMAIN-SUFFIX, mistral.ai,ChatGPT
+DOMAIN-KEYWORD, chat.mistral.ai, AI-Route
+DOMAIN-KEYWORD, console.mistral.ai, AI-Route
+DOMAIN-SUFFIX, mistral.ai, AI-Route
 
 # Google
-DOMAIN-KEYWORD, google.com,ChatGPT
+DOMAIN-KEYWORD, google.com, AI-Route
