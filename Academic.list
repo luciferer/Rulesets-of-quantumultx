@@ -1,41 +1,116 @@
-# Title: Academic Rules for Surge
-# Update: 2025-07-28 20:06:19 (GMT+8)
-# 此规则适用于校园网购买学术数据库版权，使用直连访问以获得下载权限。
+# Title: Extended Academic Rules for Surge
+# Update: Auto-Generated
+# Purpose: 提供完整学术数据库直连规则（用于校园网授权访问）
 
-# 国内出版环境
-DOMAIN-SUFFIX, cnki.net, Academic.list
-DOMAIN-SUFFIX, wanfangdata.com.cn, Academic.list
-DOMAIN-SUFFIX, cqvip.com, Academic.list
-DOMAIN-SUFFIX, chaoxing.com, Academic.list
-DOMAIN-SUFFIX, duxiu.com, Academic.list
-DOMAIN-SUFFIX, blyun.com, Academic.list
-DOMAIN-SUFFIX, edu.cn, Academic.list
+# =========================
+# 🇨🇳 国内出版数据库
+# =========================
+DOMAIN-SUFFIX, cnki.net, Academic-Route
+DOMAIN-SUFFIX, wanfangdata.com.cn, Academic-Route
+DOMAIN-SUFFIX, cqvip.com, Academic-Route
+DOMAIN-SUFFIX, cqvip.cn, Academic-Route
+DOMAIN-SUFFIX, chaoxing.com, Academic-Route
+DOMAIN-SUFFIX, duxiu.com, Academic-Route
+DOMAIN-SUFFIX, superlib.com, Academic-Route
+DOMAIN-SUFFIX, yilubook.com, Academic-Route
+DOMAIN-SUFFIX, readpaper.com, Academic-Route
+DOMAIN-SUFFIX, zhangqiaokeyan.com, Academic-Route
+DOMAIN-SUFFIX, zlibrary-global.se, Academic-Route
+DOMAIN-SUFFIX, zlibrary.to, Academic-Route
+DOMAIN-SUFFIX, z-lib.gs, Academic-Route
+DOMAIN-SUFFIX, libgen.is, Academic-Route
+DOMAIN-SUFFIX, blyun.com, Academic-Route
+DOMAIN-SUFFIX, edu.cn, Academic-Route
 
-# 国际环境生态学术出版商
-DOMAIN-SUFFIX, sciencedirect.com, Academic.list
-DOMAIN-SUFFIX, researchgate.net, Academic.list
-DOMAIN-SUFFIX, springer.com, Academic.list
-DOMAIN-SUFFIX, wiley.com, Academic.list
-DOMAIN-SUFFIX, spiedigitallibrary.org, Academic.list
-DOMAIN-SUFFIX, blackwell-synergy.com, Academic.list
-DOMAIN-SUFFIX, sciencemag.org, Academic.list
-DOMAIN-SUFFIX, jstor.org, Academic.list
-DOMAIN-SUFFIX, cabdirect.org, Academic.list
-DOMAIN-SUFFIX, ieee.org, Academic.list
-DOMAIN-SUFFIX, nature.com, Academic.list
-DOMAIN-SUFFIX, osapublishing.org, Academic.list
-DOMAIN-SUFFIX, webofknowledge.com, Academic.list
-DOMAIN-SUFFIX, elsevier.com, Academic.list
-DOMAIN-SUFFIX, sciencedirectassets.com, Academic.list
-DOMAIN-SUFFIX, els-cdn.com, Academic.list
-DOMAIN-SUFFIX, springernature.com, Academic.list
-DOMAIN-SUFFIX, cambridge.org, Academic.list
-DOMAIN-SUFFIX, acs.org, Academic.list
-DOMAIN-SUFFIX, pnas.org, Academic.list
-DOMAIN-SUFFIX, iop.com, Academic.list
-DOMAIN-SUFFIX, rsc.org, Academic.list
-DOMAIN-SUFFIX, taylorfrancis.com, Academic.list
-DOMAIN-SUFFIX, begellhouse.com, Academic.list
-DOMAIN-SUFFIX, iop.org, Academic.list
-DOMAIN-SUFFIX, ebscohost.com, Academic.list
-DOMAIN-SUFFIX, aiaa.org, Academic.list
+# =========================
+# 🌍 国际综合学术数据库
+# =========================
+DOMAIN-SUFFIX, sciencedirect.com, Academic-Route
+DOMAIN-SUFFIX, elsevier.com, Academic-Route
+DOMAIN-SUFFIX, springer.com, Academic-Route
+DOMAIN-SUFFIX, springernature.com, Academic-Route
+DOMAIN-SUFFIX, link.springer.com, Academic-Route
+DOMAIN-SUFFIX, nature.com, Academic-Route
+DOMAIN-SUFFIX, wiley.com, Academic-Route
+DOMAIN-SUFFIX, tandfonline.com, Academic-Route
+DOMAIN-SUFFIX, taylorfrancis.com, Academic-Route
+DOMAIN-SUFFIX, jstor.org, Academic-Route
+DOMAIN-SUFFIX, sagepub.com, Academic-Route
+DOMAIN-SUFFIX, sciencemag.org, Academic-Route
+DOMAIN-SUFFIX, pnas.org, Academic-Route
+DOMAIN-SUFFIX, cell.com, Academic-Route
+DOMAIN-SUFFIX, mitpressjournals.org, Academic-Route
+DOMAIN-SUFFIX, aaas.org, Academic-Route
+
+# =========================
+# 📡 工程类数据库（IEEE/ACM/MIT/AIP）
+# =========================
+DOMAIN-SUFFIX, ieee.org, Academic-Route
+DOMAIN-SUFFIX, ieeexplore.ieee.org, Academic-Route
+DOMAIN-SUFFIX, acm.org, Academic-Route
+DOMAIN-SUFFIX, dl.acm.org, Academic-Route
+DOMAIN-SUFFIX, aip.org, Academic-Route
+DOMAIN-SUFFIX, scitation.org, Academic-Route
+
+# =========================
+# 🔬 物理 / 化学 / 材料类数据库
+# =========================
+DOMAIN-SUFFIX, rsc.org, Academic-Route
+DOMAIN-SUFFIX, iop.org, Academic-Route
+DOMAIN-SUFFIX, aippublishing.org, Academic-Route
+DOMAIN-SUFFIX, osapublishing.org, Academic-Route
+DOMAIN-SUFFIX, spiedigitallibrary.org, Academic-Route
+DOMAIN-SUFFIX, opticsinfobase.org, Academic-Route
+DOMAIN-SUFFIX, aps.org, Academic-Route
+DOMAIN-SUFFIX, phys.org, Academic-Route
+DOMAIN-SUFFIX, scitation.org, Academic-Route
+
+# =========================
+# 🧪 生命科学与医学数据库
+# =========================
+DOMAIN-SUFFIX, ncbi.nlm.nih.gov, Academic-Route
+DOMAIN-SUFFIX, pubmed.ncbi.nlm.nih.gov, Academic-Route
+DOMAIN-SUFFIX, medrxiv.org, Academic-Route
+DOMAIN-SUFFIX, biorxiv.org, Academic-Route
+DOMAIN-SUFFIX, nejm.org, Academic-Route
+DOMAIN-SUFFIX, thelancet.com, Academic-Route
+DOMAIN-SUFFIX, embase.com, Academic-Route
+DOMAIN-SUFFIX, cochranelibrary.com, Academic-Route
+
+# =========================
+# 📘 学术图书/电子图书平台
+# =========================
+DOMAIN-SUFFIX, ebooks.com, Academic-Route
+DOMAIN-SUFFIX, ebscohost.com, Academic-Route
+DOMAIN-SUFFIX, proquest.com, Academic-Route
+DOMAIN-SUFFIX, oclc.org, Academic-Route
+DOMAIN-SUFFIX, questia.com, Academic-Route
+
+# =========================
+# 📊 专利/标准数据库
+# =========================
+DOMAIN-SUFFIX, lens.org, Academic-Route
+DOMAIN-SUFFIX, wipo.int, Academic-Route
+DOMAIN-SUFFIX, uspto.gov, Academic-Route
+DOMAIN-SUFFIX, epo.org, Academic-Route
+DOMAIN-SUFFIX, astm.org, Academic-Route
+DOMAIN-SUFFIX, iso.org, Academic-Route
+
+# =========================
+# 🔍 文献检索聚合平台
+# =========================
+DOMAIN-SUFFIX, semanticscholar.org, Academic-Route
+DOMAIN-SUFFIX, researchgate.net, Academic-Route
+DOMAIN-SUFFIX, academia.edu, Academic-Route
+DOMAIN-SUFFIX, mendeley.com, Academic-Route
+DOMAIN-SUFFIX, zotero.org, Academic-Route
+
+# =========================
+# 🌐 其他补充出版商
+# =========================
+DOMAIN-SUFFIX, begellhouse.com, Academic-Route
+DOMAIN-SUFFIX, cabdirect.org, Academic-Route
+DOMAIN-SUFFIX, iopscience.iop.org, Academic-Route
+DOMAIN-SUFFIX, els-cdn.com, Academic-Route
+DOMAIN-SUFFIX, sciencedirectassets.com, Academic-Route
+DOMAIN-SUFFIX, aiaa.org, Academic-Route
