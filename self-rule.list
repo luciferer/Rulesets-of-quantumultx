@@ -1,0 +1,4 @@
+[Rule]
+DOMAIN,adobeid-na1.services.adobe.com,REJECT
+DOMAIN,auth.services.adobe.com,REJECT
+DOMAIN,assets.adobedtm.com,REJECT
