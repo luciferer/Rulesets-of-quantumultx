@@ -2,7 +2,7 @@
 [Rule]
 DOMAIN,adobeid-na1.services.adobe.com,selfrule
 DOMAIN,auth.services.adobe.com,selfrule
-DOMAIN,assets.adobedtm.com,selfrule
+
 
 
 # adobe
