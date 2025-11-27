@@ -3,3 +3,15 @@
 DOMAIN,adobeid-na1.services.adobe.com,selfrule
 DOMAIN,auth.services.adobe.com,selfrule
 DOMAIN,assets.adobedtm.com,selfrule
+
+
+# adobe
+DOMAIN,genuine.adobe.com,selfrule
+DOMAIN,prod.adobeccstatic.com,selfrule
+DOMAIN,client.messaging.adobe.com,selfrule
+DOMAIN,server.messaging.adobe.com,selfrule
+DOMAIN,ic.adobe.io,selfrule
+DOMAIN,crs.cr.adobe.com,selfrule
+DOMAIN,lcs-cops.adobe.io,selfrule
+DOMAIN,blue-server.messaging.adobe.com,selfrule
+DOMAIN,ui.messaging.adobe.com,selfrule
