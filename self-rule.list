@@ -7,7 +7,7 @@ DOMAIN,assets.adobedtm.com,selfrule
 
 # adobe
 DOMAIN,genuine.adobe.com,selfrule
-DOMAIN,prod.adobeccstatic.com,selfrule
+
 DOMAIN,client.messaging.adobe.com,selfrule
 DOMAIN,server.messaging.adobe.com,selfrule
 DOMAIN,ic.adobe.io,selfrule
