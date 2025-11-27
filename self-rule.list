@@ -12,6 +12,6 @@ DOMAIN,client.messaging.adobe.com,selfrule
 DOMAIN,server.messaging.adobe.com,selfrule
 DOMAIN,ic.adobe.io,selfrule
 DOMAIN,crs.cr.adobe.com,selfrule
-DOMAIN,lcs-cops.adobe.io,selfrule
+
 DOMAIN,blue-server.messaging.adobe.com,selfrule
 DOMAIN,ui.messaging.adobe.com,selfrule
