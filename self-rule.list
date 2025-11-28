@@ -1,7 +1,7 @@
 # 这是我自己的规则
 [Rule]
-DOMAIN,adobeid-na1.services.adobe.com,selfrule
-DOMAIN,auth.services.adobe.com,selfrule
+#DOMAIN,adobeid-na1.services.adobe.com,selfrule
+#DOMAIN,auth.services.adobe.com,selfrule
 
 
 
