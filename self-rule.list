@@ -1,5 +1,6 @@
 # 这是我自己的规则
 [Rule]
+#adobe激活防破解失败
 DOMAIN,adobeid-na1.services.adobe.com,selfrule
 DOMAIN,auth.services.adobe.com,selfrule
 
