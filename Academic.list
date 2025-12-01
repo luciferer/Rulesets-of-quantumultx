@@ -105,6 +105,10 @@ DOMAIN-SUFFIX, academia.edu, Academic-Route
 DOMAIN-SUFFIX, mendeley.com, Academic-Route
 DOMAIN-SUFFIX, zotero.org, Academic-Route
 DOMAIN-SUFFIX, webofscience.com, Academic-Route
+DOMAIN-KEYWORD, webofknowledge, Academic-Route
+DOMAIN-KEYWORD, webofscience, Academic-Route
+
+
 
 # =========================
 # 🌐 其他补充出版商
