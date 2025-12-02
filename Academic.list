@@ -119,3 +119,8 @@ DOMAIN-SUFFIX, iopscience.iop.org, Academic-Route
 DOMAIN-SUFFIX, els-cdn.com, Academic-Route
 DOMAIN-SUFFIX, sciencedirectassets.com, Academic-Route
 DOMAIN-SUFFIX, aiaa.org, Academic-Route
+
+# =========================
+# 🌐 其他补充出版商
+# =========================
+DOMAIN-KEYWORD, edu.cn, Academic-Route
